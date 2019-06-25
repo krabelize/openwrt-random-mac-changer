@@ -36,4 +36,4 @@ $ crontab -l
 GNU General Public License v3.0
 
 # Author
-Jeroen van Kessel | [cryptsus.com](https://cryptsus.com) - we craft cyber security solutions
+[Jeroen van Kessel](https://twitter.com/jeroenvkessel) | [cryptsus.com](https://cryptsus.com) - we craft cyber security solutions
