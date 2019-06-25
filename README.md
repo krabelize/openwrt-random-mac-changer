@@ -14,6 +14,7 @@ $ /etc/init.d/mac-change.sh enable
 $ /etc/init.d/mac-change.sh enabled && echo on
 on
 ```
+Use the `logread` command to for debugging and troubleshooting the script.
 
 You can use logread to debug the script. More info on [init scripts.](https://openwrt.org/docs/techref/initscripts)
 
