@@ -34,6 +34,7 @@ $ /etc/init.d/cron enable
 $ crontab -e
 * 3 * * * /etc/init.d/mac-change.sh start
 ```
+Verify:
 ```bash
 $ crontab -l
 * 3 * * * /etc/init.d/mac-change.sh start
