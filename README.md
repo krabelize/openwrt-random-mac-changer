@@ -15,7 +15,7 @@ $ /etc/init.d/mac-change.sh enabled && echo on
 on
 ```
 
-You can use logread to debug the script. More info on init scripts: https://openwrt.org/docs/techref/initscripts
+You can use logread to debug the script. More info on [init scripts.](https://openwrt.org/docs/techref/initscripts)
 
 If you want to change your MAC address every 3 hours leverage the crontab utilty:
 
