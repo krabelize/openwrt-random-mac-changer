@@ -6,6 +6,7 @@ MAC address changer script:
 Initialize on startup:
 
 ```bash
+$ chmod +x /etc/init.d/mac-change.sh
 $ /etc/init.d/mac-change.sh enable
 ```
 
