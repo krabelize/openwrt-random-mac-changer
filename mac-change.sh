@@ -1,5 +1,5 @@
 #!/bin/sh /etc/rc.common
-#By Jeroen van Kessel | cryptsus.com
+#By krabelize | cryptsus.com
 #MAC address changer script
 #MAKE SURE the OUI of the MAC address matches a client side wireless NIC vendor
 #Place this script in /etc/init.d/
