@@ -1,6 +1,5 @@
 # openwrt-random-mac-changer
-OpenWrt change MAC adres on any interface
-
+OpenWrt change MAC adres on any interface. Change th OUI of the MAC adres to a [legitmate NIC](https://mac2vendor.com/) vendor for RFC complaincy. 
 
 MAC address changer script:
 
