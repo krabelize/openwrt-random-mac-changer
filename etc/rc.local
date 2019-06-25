@@ -1,0 +1,5 @@
+# cat /etc/rc.local 
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+/etc/init.d/mac-change.sh start
+exit 0
