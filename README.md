@@ -1,25 +1,21 @@
 # OpenWrt random MAC changer
-OpenWrt change MAC adres on any interface. Change th OUI of the MAC adres to a [legitmate NIC](https://mac2vendor.com/) vendor for RFC complaincy. 
+OpenWrt change MAC adres on any interface. Change th OUI of the MAC adres to a [legitmate NIC](https://mac2vendor.com/) vendor for RFC compliancy. 
 
-MAC address changer script:
+Install MAC adres changer script:
 
 Initialize on startup:
-
 ```bash
 $ chmod +x /etc/init.d/mac-change.sh
 $ /etc/init.d/mac-change.sh enable
 ```
-
+Verify:
 ```bash
 $ /etc/init.d/mac-change.sh enabled && echo on
 on
 ```
-Use the `logread` command to for debugging and troubleshooting the script.
+Use the `logread` command to for debugging and troubleshooting the script. More info on [init scripts.](https://openwrt.org/docs/techref/initscripts)
 
-You can use logread to debug the script. More info on [init scripts.](https://openwrt.org/docs/techref/initscripts)
-
-If you want to change your MAC address every 3 hours leverage the crontab utilty:
-
+Leverage the `crontab` utilty if you want to change your MAC address every 3 hours:
 ```bash
 $ /etc/init.d/cron start
 ```
@@ -36,4 +32,3 @@ $ crontab -e
 $ crontab -l
 * 3 * * * /etc/init.d/mac-change.sh start
 ```
-
