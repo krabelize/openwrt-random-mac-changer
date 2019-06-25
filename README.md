@@ -24,10 +24,5 @@ If you want to change your MAC address every 3 hours leverage the crontab utilty
 /etc/init.d/cron enable
 `
 
-`
-crontab -e
-* 3 * * * /etc/init.d/mac-change.sh start
-`
-crontab -l
-* 3 * * * /etc/init.d/mac-change.sh start
-`
+`crontab -e
+* 3 * * * /etc/init.d/mac-change.sh start`
