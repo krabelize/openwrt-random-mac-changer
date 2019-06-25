@@ -39,7 +39,7 @@ $ crontab -l
 * 3 * * * /etc/init.d/mac-change.sh start
 ```
 # License
-GNU General Public License v3.0
+BSD
 
 # Author
 [Jeroen van Kessel](https://twitter.com/jeroenvkessel) | [cryptsus.com](https://cryptsus.com) - we craft cyber security solutions
