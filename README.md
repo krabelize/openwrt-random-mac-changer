@@ -13,6 +13,12 @@ Verify:
 $ /etc/init.d/mac-change.sh enabled && echo on
 on
 ```
+Edit `/etc/rc.local` to execute on startup in case the init is too slow:
+```bash
+$ vi /etc/rc.local
+/etc/init.d/mac-change.sh start
+exit 0
+```
 Use the `logread` command to for debugging and troubleshooting the script. More info on [init scripts.](https://openwrt.org/docs/techref/initscripts)
 
 Leverage the `crontab` utilty if you want to change your MAC address every 3 hours:
