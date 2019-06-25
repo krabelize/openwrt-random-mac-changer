@@ -36,4 +36,4 @@ $ crontab -l
 GPLv3
 
 # Author
-Visit [cryptsus.com](https://cryptsus.com) - we craft cyber security solutions
+Jeroen van Kessel | [cryptsus.com](https://cryptsus.com) - we craft cyber security solutions
