@@ -20,19 +20,19 @@ You can use logread to debug the script. More info on init scripts: https://open
 If you want to change your MAC address every 3 hours leverage the crontab utilty:
 
 ```bash
-/etc/init.d/cron start
+$ /etc/init.d/cron start
 ```
 
 ```bash
-/etc/init.d/cron enable
+$ /etc/init.d/cron enable
 ```
 
 ```bash
-crontab -e
+$ crontab -e
 * 3 * * * /etc/init.d/mac-change.sh start
 ```
 ```bash
-crontab -l
+$ crontab -l
 * 3 * * * /etc/init.d/mac-change.sh start
 ```
 
