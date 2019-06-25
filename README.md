@@ -1,5 +1,5 @@
 # OpenWrt random MAC changer
-OpenWrt change MAC adres on any interface. Change th OUI of the MAC adres to a [legitmate NIC](https://mac2vendor.com/) vendor for [RFC and IEEE compliancy](http://standards-oui.ieee.org/oui.txt). Furthermore, the 802.1X authentication server might have a validator in place to check spoofed MAC addresses.
+OpenWrt change MAC adres on any interface. Change th OUI of the MAC adres to a [legitmate NIC](https://mac2vendor.com/) vendor for [RFC and IEEE compliancy](http://standards-oui.ieee.org/oui.txt). Furthermore, the 802.1X authentication server might have a validator in place to check spoofed MAC addresses against the above IEEE database.
 
 Install MAC adres changer script:
 
