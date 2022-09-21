@@ -1,5 +1,7 @@
 # OpenWrt random MAC changer
-This script changes the MAC address on OpenWrt on any specified (v)NIC interface. Change th OUI of the MAC address in line 13 to a [legitmate NIC](https://mac2vendor.com/) vendor for [RFC and IEEE compliancy](http://standards-oui.ieee.org/oui.txt). The [802.1X authentication server](https://cryptsus.com/blog/openwrt-wireless-access-point-bridge-802.1x-peap.html) might have a validator in place to check spoofed MAC addresses against the above IEEE database. 
+This script changes the MAC address on OpenWrt on any specified (v)NIC interface. Change th OUI of the MAC address in line 13 to a [legitmate NIC](https://mac2vendor.com/) vendor for [RFC and IEEE compliancy](http://standards-oui.ieee.org/oui.txt). The 802.1X authentication server might have a validator in place to check spoofed MAC addresses against the above IEEE database. 
+
+Read [this blog post](https://cryptsus.com/blog/openwrt-wireless-access-point-bridge-802.1x-peap.html) for more information.
 
 Install MAC address changer script:
 
